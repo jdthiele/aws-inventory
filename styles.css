@@ -1,13 +1,17 @@
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
 }
-header {
+
+.site-footer {
     background: grey;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
+    box-shadow: 0 -1px 3px gray;
+    padding: 10px 5%;
+}
+
+main {
+    padding: 10px 5%;
 }
 
 nav {
@@ -20,7 +24,20 @@ nav li{
 }
 
 nav ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    list-style-type: none;
+}
+
+.site-header {
+    background: grey;
+    box-shadow: 0 1px 3px gray;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 5%;
+}
+
+.site-header h2 {
+    margin: 0;
 }
